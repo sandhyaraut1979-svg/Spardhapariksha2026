@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="mr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>विदर्भ स्तरीय भव्य सामान्य ज्ञान स्पर्धा परीक्षा 2026</title>
+<style>
+:root{--ink:#171717;--muted:#666;--card:#fff;--bg:#f4f4f4;--accent:#111}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans Devanagari",sans-serif;background:var(--bg);color:var(--ink)}
+header{background:#111;color:#fff;padding:14px 18px;position:sticky;top:0;z-index:5}
+nav{max-width:1050px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
+nav b{font-size:17px}nav a{color:#fff;text-decoration:none;margin-left:14px;font-size:14px}
+.container{max-width:1050px;margin:auto;padding:18px}
+.hero{background:#fff;border-radius:18px;padding:10px;box-shadow:0 5px 20px #0001}
+.hero img{width:100%;display:block;border-radius:12px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0}
+.card{background:var(--card);border-radius:16px;padding:18px;box-shadow:0 4px 16px #0000000d}
+.card h3{margin:0 0 9px}.big{font-size:26px;font-weight:800}
+.btn{display:inline-block;background:#111;color:#fff;border:0;border-radius:10px;padding:12px 18px;text-decoration:none;font-weight:700;cursor:pointer}
+.btn.light{background:#eee;color:#111}
+section{scroll-margin-top:75px;margin:24px 0}.title{text-align:center;margin:8px 0 16px}
+form{display:grid;gap:12px}.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+label{font-weight:700;font-size:14px}input,select{width:100%;padding:12px;border:1px solid #ccc;border-radius:9px;font-size:15px;margin-top:5px}
+.notice{padding:12px;border-radius:10px;background:#f1f1f1;margin:8px 0}.qr{border:2px dashed #aaa;border-radius:14px;padding:28px;text-align:center;color:#777}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden}th,td{padding:10px;border-bottom:1px solid #eee;text-align:left;font-size:14px}th{background:#f0f0f0}
+.badge{padding:5px 8px;border-radius:20px;background:#eee;font-size:12px;font-weight:700}.paid{background:#dff6e4}.pending{background:#fff0c7}
+footer{background:#111;color:#fff;padding:28px 18px;margin-top:35px}.contacts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+small{color:var(--muted)}.hidden{display:none}.adminbox{background:#fff;border-radius:16px;padding:18px}
+@media(max-width:750px){.grid,.contacts,.row{grid-template-columns:1fr}nav a{display:none}.container{padding:12px}.big{font-size:22px}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<b>स्पर्धा परीक्षा 2026</b>
+<div><a href="#home">मुख्यपृष्ठ</a><a href="#register">नोंदणी</a><a href="#centres">केंद्र</a><a href="#admin">Admin</a></div>
+</nav>
+</header>
+
+<main class="container">
+<section id="home">
+<div class="hero"><img src="poster.jpg" alt="स्पर्धा परीक्षा 2026 माहितीपत्रक"></div>
+<div class="grid">
+<div class="card"><h3>📅 परीक्षा</h3><div class="big">6 डिसेंबर 2026</div><small>रविवार · सकाळी 11 ते 12</small></div>
+<div class="card"><h3>💰 नोंदणी शुल्क</h3><div class="big">₹50/-</div><small>अंतिम तारीख: 25 नोव्हेंबर 2026</small></div>
+<div class="card"><h3>🏆 बक्षिसे</h3><div class="big">₹11,001</div><small>प्रथम पारितोषिक · द्वितीय ₹7,001 · तृतीय ₹5,001</small></div>
+</div>
+<div style="text-align:center"><a class="btn" href="#register">आत्ताच नोंदणी करा</a></div>
+</section>
+
+<section id="centres">
+<h2 class="title">परीक्षा केंद्रे</h2>
+<div class="grid">
+<div class="card"><h3>केंद्र 1</h3><p>जगदंबा महाविद्यालय, अचलपूर</p><p><b>नोंदणी क्षमता:</b> आयोजक भरू शकतात</p></div>
+<div class="card"><h3>केंद्र 2</h3><p>सी. एम. कडूटी कला महाविद्यालय, परतवाडा</p><p><b>नोंदणी क्षमता:</b> आयोजक भरू शकतात</p></div>
+<div class="card"><h3>💻 Online</h3><p>ऑनलाइन सहभागी होऊ इच्छिणाऱ्या विद्यार्थ्यांसाठी स्वतंत्र नोंदणी.</p></div>
+</div>
+</section>
+
+<section id="register">
+<h2 class="title">विद्यार्थी नोंदणी</h2>
+<div class="card">
+<div class="notice"><b>शुल्क: ₹50/-</b> · परीक्षा: 6 डिसेंबर 2026 · वेळ: सकाळी 11 ते 12</div>
+<form id="regForm">
+<div class="row">
+<label>विद्यार्थ्याचे पूर्ण नाव *<input name="name" required></label>
+<label>मोबाईल नंबर *<input name="mobile" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" required></label>
+</div>
+<div class="row">
+<label>शाळा / महाविद्यालय<input name="school"></label>
+<label>इयत्ता<input name="class"></label>
+</div>
+<div class="row">
+<label>परीक्षा पद्धत *
+<select name="mode" id="mode" required><option value="">निवडा</option><option>केंद्रावर</option><option>ऑनलाइन</option></select></label>
+<label id="centreWrap">परीक्षा केंद्र
+<select name="centre" id="centre"><option value="">केंद्र निवडा</option><option>जगदंबा महाविद्यालय, अचलपूर</option><option>सी. एम. कडूटी कला महाविद्यालय, परतवाडा</option></select></label>
+</div>
+<label>पेमेंट UTR / Transaction ID *<input name="utr" required placeholder="पेमेंट केल्यानंतर UTR टाका"></label>
+<div class="qr"><b>पेमेंट QR येथे लावायचा आहे</b><br><br>आयोजकांचा QR कोड मिळाल्यावर या जागी जोडता येईल.<br><small>सध्या ही साइट डेमो/प्रोटोटाइप आहे.</small></div>
+<label><input type="checkbox" required style="width:auto"> मी ₹50 नोंदणी शुल्क भरले असून दिलेली माहिती बरोबर आहे.</label>
+<button class="btn" type="submit">नोंदणी सबमिट करा</button>
+</form>
+<div id="success" class="notice hidden"></div>
+</div>
+</section>
+
+<section id="admin">
+<h2 class="title">Admin Dashboard — Demo</h2>
+<div class="adminbox">
+<p><b>Demo login:</b> Password: <code>admin123</code></p>
+<input id="adminPass" type="password" placeholder="Admin password">
+<button class="btn" onclick="loginAdmin()">Login</button>
+<div id="adminPanel" class="hidden" style="margin-top:15px">
+<div class="grid">
+<div class="card"><h3>एकूण नोंदणी</h3><div class="big" id="total">0</div></div>
+<div class="card"><h3>Paid/Pending</h3><div class="big" id="pending">0 / 0</div></div>
+<div class="card"><h3>Online / Centre</h3><div class="big" id="modes">0 / 0</div></div>
+</div>
+<table><thead><tr><th>ID</th><th>नाव</th><th>मोबाईल</th><th>Mode</th><th>Centre</th><th>UTR</th><th>Status</th></tr></thead>
+<tbody id="students"></tbody></table>
+<p style="margin-top:12px"><button class="btn light" onclick="exportCSV()">CSV Download</button>
+<button class="btn light" onclick="clearDemo()">Demo Data Clear</button></p>
+</div>
+</div>
+</section>
+
+<section>
+<h2 class="title">महत्त्वाच्या सूचना</h2>
+<div class="card">
+<ol>
+<li>स्पर्धा परीक्षा केंद्रावर वेळेच्या 30 मिनिटे अगोदर पोहोचावे.</li>
+<li>पेन व पॅड सोबत आणावे.</li>
+<li>प्रवेश पावती सोबत आणावी; तीच रोल नंबर म्हणून वापरली जाईल.</li>
+<li>सर्व सहभागी विद्यार्थ्यांना प्रमाणपत्र देण्यात येईल.</li>
+<li>वय 10 ते 20 वर्षे वयोगटासाठी प्रवेश.</li>
+<li>OMR पद्धतीने परीक्षा घेतली जाईल.</li>
+</ol>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container">
+<h3>संपर्क सूत्र</h3>
+<div class="contacts">
+<div>पंडित गजानन शर्मा — 9860905895<br>श्याम साऊफकर — 9552226480<br>ईशान रणोड — 8208835445</div>
+<div>किशन श्रीवास्तव — 7058463482<br>वैभव पुरोगामी — 9022141503<br>स्वप्नील तिडके — 9172629184</div>
+<div>दिनकर माकडे — 9156202481<br>प्रथमेश दुबे — 7249202357<br>कृष्णा जाडगे — 9175335784</div>
+</div>
+<p>नोंदणी प्रमुख: किशोर अग्रवाल — 7028868322 | रुद्रा राऊत — 9011635549</p>
+</div>
+</footer>
+
+<script>
+const key="spardha_students_v1";
+function getData(){return JSON.parse(localStorage.getItem(key)||"[]")}
+document.getElementById("mode").addEventListener("change",e=>{
+ document.getElementById("centre").disabled=e.target.value==="ऑनलाइन";
+ if(e.target.value==="ऑनलाइन") document.getElementById("centre").value="";
+});
+document.getElementById("regForm").addEventListener("submit",e=>{
+ e.preventDefault();
+ const f=new FormData(e.target), d=Object.fromEntries(f.entries());
+ d.id="SP-"+String(Date.now()).slice(-6); d.status="Pending"; d.created=new Date().toISOString();
+ const a=getData(); a.push(d); localStorage.setItem(key,JSON.stringify(a));
+ document.getElementById("success").classList.remove("hidden");
+ document.getElementById("success").innerHTML="<b>नोंदणी सबमिट झाली!</b><br>तुमचा Registration ID: <b>"+d.id+"</b><br>पेमेंट तपासल्यानंतर आयोजक नोंदणी Confirm करतील.";
+ e.target.reset(); document.getElementById("centre").disabled=false;
+});
+function loginAdmin(){
+ if(document.getElementById("adminPass").value!=="admin123"){alert("चुकीचा password");return}
+ document.getElementById("adminPanel").classList.remove("hidden"); render();
+}
+function render(){
+ const a=getData(), paid=a.filter(x=>x.status==="Paid").length, online=a.filter(x=>x.mode==="ऑनलाइन").length;
+ total.textContent=a.length; pending.textContent=paid+" / "+(a.length-paid); modes.textContent=online+" / "+(a.length-online);
+ students.innerHTML=a.map(x=>`<tr><td>${x.id}</td><td>${x.name}</td><td>${x.mobile}</td><td>${x.mode}</td><td>${x.centre||"—"}</td><td>${x.utr}</td><td><span class="badge ${x.status==="Paid"?"paid":"pending"}">${x.status}</span></td></tr>`).join("");
+}
+function exportCSV(){
+ const a=getData(); if(!a.length){alert("अजून नोंदणी नाही.");return}
+ const cols=["id","name","mobile","school","class","mode","centre","utr","status","created"];
+ const csv=[cols.join(","),...a.map(x=>cols.map(c=>`"${String(x[c]||"").replaceAll('"','""')}"`).join(","))].join("\\n");
+ const blob=new Blob([csv],{type:"text/csv;charset=utf-8"}), u=URL.createObjectURL(blob), ael=document.createElement("a");
+ ael.href=u;ael.download="spardha-students.csv";ael.click();URL.revokeObjectURL(u);
+}
+function clearDemo(){if(confirm("सर्व demo registrations delete करायचे?")){localStorage.removeItem(key);render()}}
+</script>
+</body>
+</html>
